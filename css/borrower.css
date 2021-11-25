@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.editNav {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* Charcoal/Charcoal */
+  color: #414141;
+}
+
+#navImage {
+  margin-left: 50px;
+}
+
+.itemNav {
+  margin-left: 70px;
+  margin-right: 30px;
+  margin-top: 12%;
+}
+
+#sectionColor {
+  background-color: #EEEEF7;
+}
+
+#heroButton {
+  background-color: #fba200;
+  border-radius: 50px;
+  width: 385px;
+  height: 65px;
+  font-family: Lato;
+  font-style: normal;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#heroText {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  color: #414141;
+  max-width: 600px;
+}
+
+#borrowWithUs {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+
+.editCardTitle {
+  color: #fba200;
+  text-align: center;
+}
+
+#headerSectionTwo {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  margin-right: 12%;
+  color: gray;
+}
+
+.editCardText {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+
+#sectionThreeColor {
+  background-color: #EEEEF7;
+
+}
+
+.cardBody {
+  background-color: #EEEEF7;
+}
+
+.sectionThreeText {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #414141;
+}
+
+#headerSecThree {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  text-align: center;
+  /* Charcoal/Charcoal */
+  color: #414141;
+}
+
+
+.editTextHeader {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+  /* identical to box height */
+  text-align: center;
+  /* Royal Blue/Royal Blue */
+  color: #2D2D82;
+}
+
+.editTextCard {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+
+  /* Charcoal/Charcoal */
+  color: #414141;
+}
+
+
+#sectionFour1 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #F9A01B;
+  margin-bottom: 4%;
+}
+
+#sectionFour2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: #414141;
+  margin-bottom: 4%;
+
+}
+
+#sectionFour3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #414141;
+}
+
+.sectionFourButton {
+  background-color: whitesmoke;
+  border-radius: 100px;
+  border-bottom-color: #2d2d82;
+  border-style: double;
+  width: 150px;
+  height: 65px;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#successButton {
+  border: 1px solid #57579B;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  background-color: white;
+  color: #57579B;
+  width: 150px;
+}
+
+#borrowerLastButton {
+  width: 600px;
+  height: 80px;
+  font-weight: bold;
+  background: #F9A01B;
+  border-radius: 100px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 350px;
+}
+
+.borrower {
+  background-color: #EEEEF7;
+  height: 600px;
+}
+
+#borrowerLastSection {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+
+  /* or 117% */
+  text-align: center;
+
+  /* Charcoal/Charcoal */
+  color: #414141;
+  margin-top: 5%;
+}
+
+#headerSectionThree {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+
+  /* identical to box height */
+  text-align: center;
+
+  /* Charcoal/Charcoal */
+  color: #414141;
+}
+
+.textEditBorrower {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+  /* identical to box height */
+  text-align: center;
+
+  /* Yellow/Yellow */
+  color: #F9A01B;
+}
+
+.cardBodyEdit {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+
+  /* Charcoal/Charcoal */
+  color: #414141;
+}
+
+
+.footerEdit {
+  background: #8181B4;
+}
+
+
+.footerLinks {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.ulEdit {
+  list-style-type: none;
+}
+
+.liEdit a:hover {
+  color: white;
+}
+
+
+#footerP {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.maram1 {
+  display: none;
+}
+
+.maram2 {
+  display: none;
+}
+
+.m-Footer {
+  display: none;
+}
+
+@media screen  and (max-width: 375px) {
+  .maram1 {
+    display: initial;
+  !important;
+    position: absolute !important;
+    height: 250px !important;
+    top: 140px !important;
+    left: 250px !important;
+  }
+
+  .maram2 {
+    display: initial !important;
+    position: absolute !important;
+    height: 250px !important;
+    top: 182px !important;
+    right: 220px !important;
+  }
+
+  .maram3 {
+    display: none;
+  }
+
+  #navImage {
+    margin-left: -5px !important;
+  }
+}
+
+@media screen  and (max-width: 375px) {
+  #heroText {
+    font-size: 24px !important;
+    font-family: Lato !important;
+    font-weight: bold !important;
+    line-height: 29px !important;
+    justify-content: left !important;
+
+  }
+
+  #heroButton {
+    font-family: Lato !important;
+    font-style: normal !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    text-align: center !important;
+    width: 300px !important;
+    hight: 40px !important;
+  }
+
+  #headerSectionThree {
+    font-size: 26px !important;
+  }
+
+  .textEditBorrower {
+    font-size: 18px !important;
+  }
+
+  .cardBodyEdit {
+    font-size: 14px !important;
+  }
+
+  #headerSecThree {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    line-height: 29px !important;
+  }
+
+  .editTextHeader {
+    font-size: 18px !important;
+  }
+
+  .editTextCard {
+    font-size: 13px !important;
+  }
+
+  .m-number2 {
+    position: absolute !important;
+    top: -20px !important;
+    left: 220px !important;
+    z-index: 10 !important;
+  }
+
+  #sectionFour3 {
+    font-size: 18px !important;
+    max-width: 250px !important;
+    line-height: 22px !important;
+  }
+
+  #sectionFour2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  #sectionFour1 {
+    font-size: 14px !important;
+    line-height: 17px !important;
+    bottom: -30px !important;
+  }
+
+  #borrowerLastSection {
+    font-size: 22px !important;
+    top: 10% !important;
+    line-height: 35px !important;
+    margin-top: 30% !important;
+  }
+
+  #borrowerLastButton {
+    width: 250px !important;
+    height: 60px !important;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 18px !important;
+    line-height: 40px !important;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 0 !important;
+    margin-top: 20% !important;
+  }
+
+  #m-navEdit {
+    margin-left: 0 !important;
+  }
+
+  #sectionFour1 {
+    font-size: 14px !important;
+    line-height: 17px !important;
+    position: absolute !important;
+    top: -250px !important;
+  }
+
+  #sectionFour2 {
+    font-size: 24px !important;
+    line-height: 29px !important;
+    margin-top: 6% !important;
+  }
+
+  #sectionFour3 {
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+
+  .m-editNav {
+    margin-left: 13% !important;
+  }
+
+
+  .m-Footer {
+    display: flex !important;
+  }
+
+  .m-FooterFirstLine {
+    font-family: Lato !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    line-height: 22px !important;
+    color: #FFFFFF !important;
+  }
+
+  .m-FooterLocations {
+    font-family: Lato !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 18px !important;
+    color: #FFFFFF !important;
+  }
+
+  .m-buttonDropDown {
+    color: white !important;
+  }
+
+  .d-Footer {
+    display: none !important;
+  }
+}

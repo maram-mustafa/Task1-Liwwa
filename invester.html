@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/investor.css">
+
+  <title>Title</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img id="navImage" src="assets/logoLiwwa.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link active itemNav editNav" aria-current="page" href="#">Invest</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link itemNav editNav " href="#">Borrow</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled itemNav editNav" href="#" tabindex="-1" aria-disabled="true">Learn</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle itemNav editNav" href="#" id="navbarDropdown" role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item editNav" class="editItems">
+            <a class="nav-link itemNav editNav" href="#">Sign Up <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item " class="editItems">
+            <a class="nav-link editNav itemNav editNav" href="#">Log In <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item " class="editItems">
+            <a class="nav-link editNav   itemNav editNav" href="#"><img src="assets/searchIcon.svg"/>En <span
+              class="sr-only"></span></a>
+          </li>
+        </ul>
+      </form>
+
+    </div>
+  </div>
+</nav>
+
+<section class="text-dark p-5 text-center text-sm-start" id="sectionColor">
+  <div style="max-width: 60%" class="container">
+    <div class="d-sm-flex flex-row-reverse justify-content-around">
+      <img class="img-fluid w-40" src="assets/investHeroImage.svg">
+
+      <div>
+        <p id="heroText" class="lead my-4 mb-3"> Diversify your <br>investments, multiply<br> your opportunities</p>
+        <p class="lead my-4 mb-5 heroText2">With liwwa’s Investment Platform, you create a diverse <br>portfolio with
+          access to
+          various, high-yield SME assets.</p>
+
+        <button id="heroButton" class="btn btn-lg ">Sign up as an Investor</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="p-5">
+  <h1 id="headerSectionTwo" class="mt-5 mb-5">How does investing work?</h1>
+
+  <div style="position: relative">
+    <img style="position:absolute; left:33%;top:-120px" src="assets/design1.svg">
+  </div>
+
+
+  <div style="margin-left: 8%" class="row text-center d-flex justify-content-evenly p-5">
+    <div class="col-md-3">
+
+      <div style="width: 18rem; position: relative">
+        <img style="margin-right: 100%; position: absolute;  top:-20px; left:-20px; z-index: 10" src="assets/num1.svg">
+        <img style="position: absolute; left:80%; top:15%" src="assets/investFirstArrow.svg" class="d-none d-sm-block">
+        <!--        ***************************************************-->
+        <div style="position: relative">
+          <img style="position: absolute" src="assets/mobileArrow1.svg" class="m-investArrow">
+          <img style=" z-index: 5; position: relative" src="assets/investWork1.svg" class="card-img-top" alt="...">
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Add funds</h5>
+          <p class="card-text">Enjoy a competitive IRRS range of 7%-18%, and receive monthly payments that can be
+            reinvested to increase returns.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div style="width: 18rem; position: relative">
+        <img style="margin-right: 100%; position: absolute;  top:-20px; left:-20px; z-index: 10" src="assets/num2.svg">
+        <img style="position: absolute; left:90%; top:30%" src="assets/investFirstArrow.svg" class="d-none d-sm-block">
+        <!--        ***************************************************-->
+        <img src="assets/mobileArrow2.svg" class="d-block d-sm-none">
+
+
+        <img style=" z-index: 5; position: relative" src="assets/investWork2.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Start investing</h5>
+          <p class="card-text">Choose from an array of small business loans that have been approved and assessed by
+            our experts.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-3">
+      <div style="width: 18rem; position: relative">
+        <img style="margin-right: 100%; position: absolute;  top:-20px; left:-20px" src="assets/num3.svg">
+        <img style=" z-index: 5" src="assets/investWork3.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Collect & reinvest </h5>
+          <p class="card-text">Receive regular payments (monthly/every 3 months) and reinvest in new loans or withdraw
+            returns from your bank account.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
+
+<section id="jumbotronColor" class="p-5">
+  <div class="jumbotron">
+    <h1 class="display-4 jumbotronHeader mt-5 mb-5">Our numbers speak for themselves</h1>
+    <div style="position: relative">
+      <img style="position: absolute ;left:70% ;top:-40px" src="assets/des1.svg">
+      <img style="position: absolute ;left:28%;top:-40px" src="assets/des1.svg">
+      <img style="position: absolute; left:37%" src="assets/des2.svg">
+    </div>
+
+
+    <h1 class="jumbotronHeader2 mt-5 mb-5">9.18% - 16.12% </h1>
+    <p class="lead jumbotronText mt-5 mb-5">Historical returns made by<br> liwwa investors</p>
+    <hr style="margin-left: 25%;margin-right: 25%" class="my-12">
+    <div style="position: relative">
+      <img style="position: absolute;left:54%; top:22px" src="assets/des3.svg">
+      <img style="position: absolute;left:56%" src="assets/des4.svg">
+    </div>
+    <h1 class="jumbotronHeader2 mt-5 mb-5">
+      <spna style="color: #c01c74">13.20%</spna>
+    </h1>
+    <p class="jumbotronText mt-5 mb-5">Median return</p>
+    <hr style="margin-left: 25%;margin-right: 25%" class="my-12">
+    <div style="position: relative">
+      <img style="position: absolute;left:34%" src="assets/des5.svg">
+    </div>
+    <h1 class="jumbotronHeader2 mt-5 mb-5">$59,819,945.48</h1>
+    <p class="jumbotronText mt-5 mb-5">underwritten across <span style="color: #2d2d82">1227  </span> <br>loans to date.
+    </p>
+  </div>
+</section>
+
+<section class="p-5">
+  <div style="position: relative">
+    <h1 id="headerSectionThree" class="mt-5 mb-5">Why invest with us?</h1>
+    <img style="position: absolute; left: 60% ; top:-40px" src="assets/design6.svg">
+  </div>
+
+  <div class="container">
+
+    <div style="width: 75vw" class="row text-between">
+
+      <div class="col-md w-auto">
+        <div style="width:300px">
+          <img src="assets/whyInvest1.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title cardTitleEdit">The returns keep coming</h5>
+            <p class="card-text cardTitleText">Enjoy a competitive IRRS range<br> of 7%-18%, and receive monthly<br>
+              payments
+              that can be reinvested<br> to increase returns.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md">
+        <div style="width:300px ">
+          <img src="assets/whyInvest2.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title cardTitleEdit">It’s at your fingertips</h5>
+            <p class="card-text cardTitleText">Easily generate returns and <br>earn profit online through our<br>
+              specialized platform.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md">
+        <div style="width:300px">
+          <img src="assets/whyInvest3.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title cardTitleEdit">We analyze for you</h5>
+            <p class="card-text cardTitleText">Our advanced credit assessment engine analyzes hundreds of data inputs
+              that are distilled into a simple credit score for each loan.</p>
+            <p style="text-align: center" class="editCardText2">Read more about our credit<br> assessment here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="width: 50vw" class="row text-center d-flex justify-content-between mt-5 m-auto ">
+
+      <div class="col-md">
+        <div>
+          <img style="width:300px " src="assets/whyInvest4.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title cardTitleEdit">You’re funding the future</h5>
+            <p class="card-text cardTitleText">Investing in small businesses generates more<br> than capital – it
+              supports job and income<br>growth in the MENA region.</p>
+            <p class="editCardText2">Read more about our economic <br>impact here</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md">
+        <div>
+          <img style="width:300px " src="assets/whyInvest5.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title cardTitleEdit">Branch out with ease</h5>
+            <p class="card-text cardTitleText">Diversify your investment portfolio by<br> accessing a new asset class –
+              small business<br>loans. Choose among loans with different<br>returns, risk levels and credit profiles.
+            </p>
+            <p class="editCardText2">Read about the importance<br> of diversification here</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="p-5 mt-5 mb-5" id="investorLandingColor">
+  <div class="container">
+    <div class="row align-item-center justify-content-around">
+      <div class="col-md p-5 mt-5 mr-5">
+        <div style="position: relative">
+          <h3 class="mb-5" id="section1">What are our Investors saying?</h3>
+          <img style="position: absolute;left:75% ;top:-30px" src="assets/landing/textDesign.svg">
+        </div>
+
+        <h1 class="mb-4" id="section2">Nour Shams</h1>
+        <p id="section3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet sit elit, quisque
+          vulputate nibh erat elit dui, integer.”</p>
+      </div>
+      <div class="col-md mt-5 ml-5">
+        <div style="position: relative">
+          <img src="assets/investorsSaying.png" class="img-fluid">
+          <img style="position: absolute; right:9%;top:50%" src="assets/landing/nour.svg">
+        </div>
+
+      </div>
+    </div>
+    <nav style="margin-left: 40% ; margin-top: 10%">
+      <ul class="pagination" style=" margin-top: 50px;margin-bottom: 15px">
+        <li class="page-item"><a style="padding-left: 30px;" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+            <path fill-rule="evenodd"
+                  d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8z"></path>
+          </svg>
+        </a></li>
+        <li class="page-item"><a style="padding-left: 30px" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+            <path fill-rule="evenodd"
+                  d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8z"></path>
+          </svg>
+        </a></li>
+        <li class="page-item"><a style="padding-left: 30px" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+            <path fill-rule="evenodd"
+                  d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8z"></path>
+          </svg>
+        </a></li>
+      </ul>
+    </nav>
+
+  </div>
+</section>
+
+
+<section>
+  <div class="jumbotron">
+    <div style="position: relative">
+      <img style="position: absolute; left:33%;top:-10px" src="assets/des1.svg">
+      <img style="position: absolute; left: 46%;top:-25px" src="assets/des2.svg">
+      <img style="position: absolute; left: 67%;top:-35px" src="assets/des4.svg">
+      <img style="position: absolute;left:30%; top:290px" src="assets/des5.svg">
+    </div>
+    <p id="lastSection" class="lead  mb-5">We guarantee you top-tier services<br> and a seamless experience. In
+      fact, if<br> you invest at least <span style="color: #c01c74">$500</span> and aren’t<br> satisfied after
+      <spna style="color: #c01c74">60 days</spna>
+      , we’ll refund<br> your original investment.<br>
+      <a id="lastButton" class="btn btn-primary btn-lg mt-5" href="#" role="button">Sign up as an Investor</a>
+    </p>
+  </div>
+</section>
+
+<section class="p-5 footerEdit">
+  <div class="row d-flex justify-content-between mt-4">
+    <div class="col-md">
+      <ul class="ulEdit">
+        <li class="liEdit mb-3"><a class="footerLinks text-decoration-none " href="#">Invest</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks text-decoration-none " href="#">Borrow</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks text-decoration-none " href="#">Lear</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks text-decoration-none " href="#">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md">
+      <ul class="ulEdit">
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Careers</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Contact Us</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md">
+      <ul class="ulEdit">
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Terms of Service</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Privacy Policy</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Investor Agreement</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Risks</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md">
+
+    </div>
+    <div class="col-md">
+
+    </div>
+
+    <div class="col-md">
+      <ul class="ulEdit">
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Jordan</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Address line 1</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Address line 2</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Phone number</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md">
+      <ul class="ulEdit">
+        <li class="liEdit mb-3 "><a class="footerLinks " href="#">Egypt</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Address line 1</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Address line 2</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Phone number</a></li>
+      </ul>
+    </div>
+
+    <div class="row d-flex justify-content-between p-5 ">
+      <div class="col-md">
+        <p id="footerP">Copyright disclaimer goes here</p>
+      </div>
+
+      <div class="col-md">
+
+      </div>
+      <div class="col-md">
+
+      </div>
+      <div class="col-md">
+
+      </div>
+
+      <div class="col-md">
+        <img style="width:90%" src="assets/Social%20Icons.svg">
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+</body>
+</html>

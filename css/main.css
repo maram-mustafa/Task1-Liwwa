@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.editNav {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* Charcoal/Charcoal */
+  color: #414141;
+}
+
+#navImage {
+  margin-left: 50px;
+}
+
+.itemNav {
+  margin-left: 70px;
+  margin-right: 30px;
+  margin-top: 12%;
+}
+
+#sectionColor {
+  background-color: #EEEEF7;
+}
+
+#textFirst {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 110px;
+  color: #414141;
+  max-width: 1000px;
+}
+
+
+.heroDesign {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  width: 1067px;
+  height: 410px;
+}
+
+#heroText {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 110px;
+  color: #414141;
+}
+
+#headerSectionOne {
+  /* Subheader 1 */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #414141;
+}
+
+
+.sectionOneTextCard {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #414141;
+}
+
+#burrowerButtonSectionOne {
+  background-color: #fba200;
+  border-radius: 50px;
+  width: 385px;
+  height: 65px;
+  font-family: Lato;
+  font-style: normal;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#investorButtonSectionOne {
+  background-color: #2D2D82;
+  border-radius: 50px;
+  width: 385px;
+  height: 65px;
+  font-family: Lato;
+  font-style: normal;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.sectionTWO {
+  background-color: #EEEEF7;
+}
+
+
+#liwwaWorkSectionTwo {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #414141;
+}
+
+.textSectionTwo {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  color: #2D2D82;
+}
+
+
+.landingTextSec2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+  color: #2D2D82;
+}
+
+#colorJumbotron {
+  background-color: #EEEEF7;
+}
+
+#aboutLiwwa1 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #414141;
+}
+
+#aboutLiwwa2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  color: #414141;
+  justify-content: left;
+  text-align: center;
+}
+
+
+#sectionFour1 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #F9A01B;
+  margin-bottom: 4%;
+}
+
+#sectionFour2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: #414141;
+  margin-bottom: 4%;
+
+}
+
+#sectionFour3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #414141;
+}
+
+#successButton {
+  border: 1px solid #57579B;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  background-color: white;
+  color: #57579B;
+  width: 150px;
+}
+
+#section1 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #2D2D82;
+}
+
+#section2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: #414141;
+}
+
+#section3 {
+  /* Paragraph 1 */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #414141;
+}
+
+#investorLandingColor {
+  background-color: #EEEEF7;
+}
+
+#landingLast {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  /* Charcoal/Charcoal */
+  color: #414141;
+}
+
+.lastSection2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* Charcoal/Charcoal */
+  color: #414141;
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-bottom: 4%;
+}
+
+.lastSection3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* Charcoal/Charcoal */
+  color: #414141;
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-bottom: 4%;
+}
+
+/*.sectionFourButton {*/
+/*  background-color: whitesmoke;*/
+/*  border-radius: 100px;*/
+/*  border-bottom-color: #2d2d82;*/
+/*  border-style: double;*/
+/*  width: 150px;*/
+/*  height: 65px;*/
+/*  font-family: Lato;*/
+/*  font-style: normal;*/
+/*  font-size: 20px;*/
+/*  line-height: 30px;*/
+/*  text-align: center;*/
+/*  color: #FFFFFF;*/
+/*}*/
+
+.editNav {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #414141;
+}
+
+
+.editCardSections {
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  width: 56%;
+}
+
+
+.editCards {
+  position: absolute;
+  top: 1100px;
+  left: 20%;
+}
+
+/*.arrows {*/
+/*  margin-left: 25%;*/
+/*  width: 20%;*/
+/*}*/
+
+
+.investorButton {
+!important;
+  border-radius: 50px;
+  background-color: #2d2d82;
+  width: 385px;
+  height: 65px;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 4%;
+}
+
+.borrowerButton {
+  background-color: #fba200;
+  border-radius: 50px;
+  width: 385px;
+  height: 65px;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 4%;
+  left: 40%;
+}
+
+.moreInfo {
+  position: absolute;
+  color: black;
+  left: 38%;
+  top: 101%;
+  width: 275px;
+  height: 23px;
+}
+
+.editCardText {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.centerText {
+  position: absolute;
+  top: 65%;
+  width: 937px;
+  height: 115px;
+  left: 28%;
+  /* Subheader 1 */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+}
+
+.footerEdit {
+  background: #8181B4;
+}
+
+
+.footerLinks {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.ulEdit {
+  list-style-type: none;
+}
+
+.liEdit a:hover {
+  color: white;
+}
+
+
+#footerP {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.frekst {
+  display: none;
+}
+
+.m-Footer {
+  display: flex;
+}
+
+@media (max-width: 375px) {
+  #textFirst {
+    font-size: 34px !important;
+    line-height: 50px !important;
+    max-width: 300px !important;
+    margin-top: -10rem !important;
+    margin-left: 2rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  #headerSectionOne {
+    font-family: Lato !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    color: #414141 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    max-width: 300rem !important;
+
+  }
+}
+
+@media (max-width: 375px) {
+  #m-investorLanding {
+    width: 307px !important;
+    height: 309px !important;
+  }
+}
+
+
+.m-landingCards {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .d-landingCards {
+    display: none;
+  }
+
+
+  .m-landingCards {
+    display: block;
+  }
+
+  .m-investorLandingContainer {
+    width: unset !important;
+  }
+
+  .m-investorLanding {
+    width: 100%;
+  }
+
+  .m-investorLandingTextContainer {
+    text-align: start;
+  }
+
+  #investorButtonSectionOne {
+    width: 250px !important;
+    height: 45px !important;
+    line-height: 30px !important;
+    font-size: 15px !important;
+  }
+
+  #aboutLiwwa2 {
+    font-size: 18px !important;
+    line-height: 22px !important;
+    font-family: Lato !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    color: #414141 !important;
+  }
+
+  .m-landingNumbers {
+    top: 0.5rem !important;
+    left: 1rem !important;
+  }
+
+  #section3 {
+    font-size: 18px !important;
+  }
+
+  #navImage {
+    margin-left: -5px !important;
+  }
+
+  .sectionOneTextCard {
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+
+  .m-FindMore {
+    font-size: 18px !important;
+    line-height: 10px !important;
+    margin-left: 57px !important;
+  }
+
+  #m-aboutLiwwa2 {
+    font-family: Lato !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: #414141 !important;
+  }
+
+  .landingTextSec2 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  #m-aboutLiwwa1 {
+    font-family: Lato !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    text-align: center !important;
+    color: #414141 !important;
+  }
+
+  #m-LiwwaAbout2 {
+    font-family: Lato !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    color: #414141 !important;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  #sectionFour1 {
+    font-size: 14px !important;
+    line-height: 17px !important;
+    position: absolute !important;
+    top: -250px !important;
+  }
+
+  #sectionFour2 {
+    font-size: 24px !important;
+    line-height: 29px !important;
+    margin-top: 6% !important;
+  }
+
+  #sectionFour3 {
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+
+  .editNav {
+    margin-left: 0 !important;
+  }
+
+  #section1 {
+    font-size: 11px !important;
+    line-height: 17px !important;
+    max-width: 300rem !important;
+    padding: 0 !important;
+  }
+
+  #section2 {
+    font-size: 24px !important;
+    line-height: 29px !important;
+  }
+
+  #section3 {
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+
+  .m-heroDesign {
+    left: 0 !important;
+    top: -1rem !important;
+  }
+
+  .m-arrowsDesign {
+    left: 0 !important;
+    top: 25rem !important;
+    width: 20rem !important;
+  }
+
+  .m-FindMore {
+    text-align: center !important;
+  }
+
+
+  #liwwaWorkSectionTwo {
+    font-size: 20rem !important;
+    max-width: 200rem !important;
+  }
+
+  #m-liwwaWorkSectionTwo {
+    font-size: 25px !important;
+    line-height: 29px !important;
+    max-width: 200rem !important;
+  }
+
+  .m-editNav {
+    margin-left: 13% !important;
+  }
+
+  #m-padding {
+    padding-left: -10rem !important;
+    text-align: left !important;
+  }
+
+
+  .brikst {
+    flex-direction: column-reverse;
+  }
+
+  .frekst {
+    line-height: 50px !important;
+    display: initial !important;
+    text-align: center !important;
+    font-size: 16px !important;
+    color: #2d2d82 !important;
+    margin-top: -3rem !important;
+    font-weight: 700 !important;
+    width: 300px !important;
+  }
+
+  #m-arrowNour {
+    width: 17rem !important;
+  }
+
+  .m-editNav-nav {
+    margin-left: 3rem !important;
+  }
+
+  #landingLast {
+    font-size: 24px !important;
+    line-height: 29px !important;
+  }
+
+  .lastSection2 {
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+
+  .lastSection3 {
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+
+  .m-imagesEdit {
+    width: 50rem !important;
+  }
+
+
+  .d-Footer {
+    display: none !important;
+  }
+
+  .m-Footer {
+    display: flex !important;
+  }
+
+  .m-FooterFirstLine {
+    font-family: Lato !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    line-height: 22px !important;
+    color: #FFFFFF !important;
+  }
+
+  .m-FooterLocations {
+    font-family: Lato !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 18px !important;
+    color: #FFFFFF !important;
+  }
+
+  .m-buttonDropDown {
+    color: white !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+

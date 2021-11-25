@@ -1,0 +1,522 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1 , minimum-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img id="navImage" src="assets/logoLiwwa.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link active itemNav editNav" aria-current="page" href="#">Invest</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link itemNav editNav " href="#">Borrow</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled itemNav editNav" href="#" tabindex="-1" aria-disabled="true">Learn</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle itemNav editNav" href="#" id="navbarDropdown" role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item editNav" class="editItems">
+            <a class="nav-link itemNav editNav" href="#">Sign Up <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item " class="editItems">
+            <a class="nav-link editNav itemNav editNav" href="#">Log In <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item " class="editItems">
+            <a class="nav-link editNav   itemNav editNav" href="#"><img src="assets/searchIcon.svg"/>En <span
+              class="sr-only"></span></a>
+          </li>
+        </ul>
+      </form>
+
+    </div>
+  </div>
+</nav>
+
+
+<div style="background-color: #EEEEF7; height: 600px" class="jumbotron">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-md">
+        <div style="position: relative">
+
+          <img style="position: absolute;top: 27px;left: 24%" src="assets/landing/arrows.svg">
+          <p style=" left:18%;top: 100px; position: absolute" id="textFirst" class="m-textHero">Bridging financial
+            gaps, <br> to broaden investment<br>horizons</p>
+          <img src="assets/heroDesign.svg" style="position: absolute; left: 13% ; margin-top: 2%">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="p-5">
+  <h1 id="headerSectionOne" class="mt-5 mb-5">We connect investors and borrowers<br> through smart business loans</h1>
+  <div class="container">
+
+    <div class="row text-center justify-content-center">
+
+      <div class="col-md w-auto">
+        <div style="width:400px" class="m-investorLandingContainer">
+          <img src="assets/landing/invester.svg" class="card-img-top m-investorLanding" alt="...">
+          <div class="card-body m-investorLandingTextContainer">
+            <p class="card-text sectionOneTextCard"> Create a diverse portfolio with liwwa’s Investment Platform, and
+              enjoy access to various, high-yield SME assets.</p>
+            <button id="investorButtonSectionOne" class="btn btn-lg mt-5 mb-5 m-investorLandingButton">Sign up as an Investor</button>
+            <a class="text-muted mt-5 text-decoration-none" href="#">Find out more</a>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md d-none d-sm-block">
+        <div>
+          <img style="width:200px" src="assets/landing/arrowsLanding.svg" class="card-img-top mt-5" alt="...">
+        </div>
+      </div>
+
+
+      <div class="col-md d-none d-sm-block">
+        <div style="width:400px">
+          <img src="assets/landing/borrower.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text sectionOneTextCard">Borrowing for your small business has never been simpler. Apply and
+              receive a decision within 48 hours - no hassle, no hidden fees!</p>
+            <button id="burrowerButtonSectionOne" class="btn btn-lg mt-5 mb-5">Sign up as an Borrower</button>
+            <a class="text-muted mt-5 text-decoration-none" href="#">Find out more</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="p-5 sectionTWO  d-landingCards">
+  <div style="position: relative">
+    <h1 id="liwwaWorkSectionTwo" class="mt-5 mb-5">How dose liwwa work?</h1>
+    <img style="position: absolute; left: 65%;top:-5%" src="assets/landing/textDesign.svg">
+  </div>
+
+
+  <div>
+    <div class="row text-center d-flex mb-5 ">
+      <div style="position: relative" class="col-md">
+        <img style="position: absolute;left:58%;top:-20px; z-index: 10" src="assets/landing/num6.svg">
+
+        <img src="assets/landing/image6.svg">
+
+
+        <p class="landingTextSec2 mt-3">Investors make<br> high returns</p>
+      </div>
+      <div style="position: relative" class="col-md">
+        <img style="position: absolute;right:58%;top:-20px; z-index: 10" src="assets/landing/num1.svg">
+        <img src="assets/landing/image1.svg">
+        <p class="landingTextSec2 mt-3">Borrower applies<br> for a loan</p>
+      </div>
+    </div>
+
+    <div class="row text-center mt-5 mb-5">
+
+      <div style="position: relative;" class="col-md">
+        <img style="position: absolute;left:62%;top:-20px; z-index: 10" src="assets/landing/num5.svg">
+        <img src="assets/landing/image5.svg">
+        <p class="landingTextSec2 mt-3">Investors invest<br> in the loan</p>
+      </div>
+
+      <div class="col-md d-none d-sm-block">
+        <img src="assets/landing/liwwaWorkArrows.svg">
+      </div>
+
+
+      <div style="position: relative" class="col-md">
+        <img style="position: absolute;right:61%;top:-27px; z-index: 10" src="assets/landing/num2.svg">
+        <img src="assets/landing/image2.svg">
+        <p class="landingTextSec2 mt-3">Proprietary credit<br> assessment of the loan<br> application</p>
+      </div>
+    </div>
+
+    <div class="row text-center mt-5">
+      <div style="position: relative" class="col-md">
+        <img style="position: absolute;left:58%;top:-20px; z-index: 10" src="assets/landing/num4.svg">
+        <img src="assets/landing/image4.svg">
+        <p class="landingTextSec2 mt-3">Loan goes live<br>on liwwa.com</p>
+      </div>
+      <div style="position: relative" class="col-md">
+        <img style="position: absolute;right:58%;top:-20px; z-index: 10" src="assets/landing/num3.svg">
+        <img src="assets/landing/image3.svg">
+        <p class="landingTextSec2 mt-3">Loan approved</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <hr style="margin-left: 10%;margin-right: 10%; margin-top:7% ; margin-bottom:5%;border: 2px solid #ABABCD;"
+        class="my-12">
+    <div style="position: relative">
+      <p class="mt-5 mb-5" id="aboutLiwwa1">About liwwa</p>
+      <img style="position: absolute; top: -30px; left:23%" src="assets/landing/aboutLiwwaDesign.svg">
+    </div>
+    <p id="aboutLiwwa2">Our peer-to-peer lending network bridges the gap<br> between borrowers and investors by creating
+      an<br> online credit marketplace where businesses can<br> borrow capital to advance their business and<br>
+      investors can earn monthly returns while diversifying<br> their portfolios.</p>
+
+  </div>
+</section>
+
+
+
+<section class="p-5 sectionTWO m-landingCards">
+  <div style="position: relative">
+    <h1 id="liwwaWorkSectionTwo" class="mt-5 mb-5">How dose liwwa work?</h1>
+    <img style="position: absolute; left: 65%;top:-5%" src="assets/landing/textDesign.svg">
+  </div>
+
+
+  <div>
+    <div class="row text-center d-flex mb-5 ">
+      <div style="position: relative" class="col-md">
+        <img style="position: absolute;left:58%;top:-20px; z-index: 10" src="assets/landing/num1.svg">
+
+        <img src="assets/landing/image1.svg">
+        <p class="landingTextSec2 mt-3">Investors make<br> high returns</p>
+      </div>
+
+      <div style="position: relative" class="col-md">
+        <img style="position: absolute;right:58%;top:-20px; z-index: 10" src="assets/landing/num2.svg">
+        <img src="assets/landing/image2.svg">
+        <p class="landingTextSec2 mt-3">Borrower applies<br> for a loan</p>
+      </div>
+    </div>
+
+    <div class="row text-center mt-5 mb-5">
+
+      <div style="position: relative;" class="col-md">
+        <img style="position: absolute;left:62%;top:-20px; z-index: 10" src="assets/landing/num3.svg">
+        <img src="assets/landing/image3.svg">
+        <p class="landingTextSec2 mt-3">Investors invest<br> in the loan</p>
+      </div>
+
+      <div class="col-md d-none d-sm-block">
+        <img src="assets/landing/liwwaWorkArrows.svg">
+      </div>
+
+
+      <div style="position: relative" class="col-md">
+        <img style="position: absolute;right:61%;top:-27px; z-index: 10" src="assets/landing/num4.svg">
+        <img src="assets/landing/image4.svg">
+        <p class="landingTextSec2 mt-3">Proprietary credit<br> assessment of the loan<br> application</p>
+      </div>
+    </div>
+
+    <div class="row text-center mt-5">
+      <div style="position: relative" class="col-md">
+        <img style="position: absolute;left:58%;top:-20px; z-index: 10" src="assets/landing/num5.svg">
+        <img src="assets/landing/image5.svg">
+        <p class="landingTextSec2 mt-3">Loan goes live<br>on liwwa.com</p>
+      </div>
+      <div style="position: relative" class="col-md">
+        <img style="position: absolute;right:58%;top:-20px; z-index: 10" src="assets/landing/num6.svg">
+        <img src="assets/landing/image6.svg">
+        <p class="landingTextSec2 mt-3">Loan approved</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <hr style="margin-left: 10%;margin-right: 10%; margin-top:7% ; margin-bottom:5%;border: 2px solid #ABABCD;"
+        class="my-12">
+    <div style="position: relative">
+      <p class="mt-5 mb-5" id="aboutLiwwa1">About liwwa</p>
+      <img style="position: absolute; top: -30px; left:23%" src="assets/landing/aboutLiwwaDesign.svg">
+    </div>
+    <p id="aboutLiwwa2">Our peer-to-peer lending network bridges the gap<br> between borrowers and investors by creating
+      an<br> online credit marketplace where businesses can<br> borrow capital to advance their business and<br>
+      investors can earn monthly returns while diversifying<br> their portfolios.</p>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="p-5 mt-5">
+  <div class="container">
+    <div class="row align-item-center justify-content-between">
+
+      <div class="col-md mr-5">
+        <div style="position: relative">
+          <img src="assets/borrowerSuccess.png" class="img-fluid">
+          <img style="position: absolute; left:-70px; top:80% " src="assets/landing/successDesign2.svg">
+        </div>
+
+      </div>
+
+      <div class="col-md ml-5 ">
+        <div style="position: relative">
+          <h3 id="sectionFour1">Borrower Success Story</h3>
+          <img style="position: absolute; top:-0;left: -55px" src="assets/landing/successDesign.svg">
+        </div>
+
+        <h1 id="sectionFour2">Amina’s Skincare</h1>
+        <p id="sectionFour3">Just ask Amina, founder of Amina’s Skincare, who was able to sustain and grow her business
+          with liwwa’s
+          support, even during COVID19.</p>
+        <button id="successButton" type="button" class="btn sectionFourButton">Learn More</button>
+      </div>
+
+    </div>
+
+    <nav style="margin-left: 40% ; margin-top: 10%">
+      <ul class="pagination" style=" margin-top: 50px;margin-bottom: 15px">
+        <li class="page-item"><a style="padding-left: 30px;" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+            <path fill-rule="evenodd"
+                  d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8z"></path>
+          </svg>
+        </a></li>
+        <li class="page-item"><a style="padding-left: 30px" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+            <path fill-rule="evenodd"
+                  d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8z"></path>
+          </svg>
+        </a></li>
+        <li class="page-item"><a style="padding-left: 30px" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+            <path fill-rule="evenodd"
+                  d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8z"></path>
+          </svg>
+        </a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+<section class="p-5 mt-5" id="investorLandingColor">
+  <div class="container">
+    <div class="row align-item-center justify-content-around">
+      <div class="col-md p-5 mt-5 mr-5">
+        <div style="position: relative">
+          <h3 class="mb-5" id="section1">What are our Investors saying?</h3>
+          <img style="position: absolute;left:70% ;top:-30px" src="assets/landing/textDesign.svg">
+        </div>
+
+        <h1 class="mb-4" id="section2">Nour Shams</h1>
+        <p id="section3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet sit elit, quisque
+          vulputate nibh erat elit dui, integer.”</p>
+      </div>
+      <div class="col-md mt-5 ml-5">
+        <div style="position: relative">
+          <img src="assets/investorsSaying.png" class="img-fluid">
+          <img style="position: absolute; right:9%;top:50%" src="assets/landing/nour.svg">
+        </div>
+
+      </div>
+    </div>
+    <nav style="margin-left: 40% ; margin-top: 10%">
+      <ul class="pagination" style=" margin-top: 50px;margin-bottom: 15px">
+        <li class="page-item"><a style="padding-left: 30px;" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+            <path fill-rule="evenodd"
+                  d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8z"></path>
+          </svg>
+        </a></li>
+        <li class="page-item"><a style="padding-left: 30px" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+            <path fill-rule="evenodd"
+                  d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8z"></path>
+          </svg>
+        </a></li>
+        <li class="page-item"><a style="padding-left: 30px" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+            <path fill-rule="evenodd"
+                  d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8z"></path>
+          </svg>
+        </a></li>
+      </ul>
+    </nav>
+
+  </div>
+</section>
+
+<section class="p-5 mt-5 ">
+  <div>
+    <p id="landingLast">Feel safe investing with us</p>
+
+    <p class="lastSection2">Our partners</p>
+    <div class="row text-center">
+      <div class="col">
+        <img style="width: 80%" src="assets/landing/group1.svg">
+      </div>
+
+    </div>
+    <div class="row text-center mt-5">
+      <div class="col">
+        <img style="width: 80%" src="assets/landing/group2.svg">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="p-5">
+  <p class="lastSection3">As seen on</p>
+  <div class="row text-center">
+    <div class="col-md">
+      <img style="width: 80%" src="assets/landing/group3.svg">
+    </div>
+  </div>
+</section>
+
+<section class="p-5 footerEdit">
+  <div class="row d-flex justify-content-between mt-4">
+    <div class="col-md">
+      <ul class="ulEdit">
+        <li class="liEdit mb-3"><a class="footerLinks text-decoration-none " href="#">Invest</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks text-decoration-none " href="#">Borrow</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks text-decoration-none " href="#">Lear</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks text-decoration-none " href="#">About</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md">
+      <ul class="ulEdit">
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Careers</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Contact Us</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md">
+      <ul class="ulEdit">
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Terms of Service</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Privacy Policy</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Investor Agreement</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Risks</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md">
+
+    </div>
+    <div class="col-md">
+
+    </div>
+
+    <div class="col-md">
+      <ul class="ulEdit">
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Jordan</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Address line 1</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Address line 2</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Phone number</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md">
+      <ul class="ulEdit">
+        <li class="liEdit mb-3 "><a class="footerLinks " href="#">Egypt</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Address line 1</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Address line 2</a></li>
+        <li class="liEdit mb-3"><a class="footerLinks" href="#">Phone number</a></li>
+      </ul>
+    </div>
+
+    <div class="row d-flex justify-content-between p-5 ">
+      <div class="col-md">
+        <p id="footerP">Copyright disclaimer goes here</p>
+      </div>
+
+      <div class="col-md">
+
+      </div>
+      <div class="col-md">
+
+      </div>
+      <div class="col-md">
+
+      </div>
+
+      <div class="col-md">
+        <img style="width:90%" src="assets/Social%20Icons.svg">
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
